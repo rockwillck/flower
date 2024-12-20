@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Procedural Flower</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="icon" href="">
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<h1>Procedural Flower</h1>
+	<p>A procedural flower. Binds to any HTML5 Canvas.</p>
+	<h2>Quickstart</h2>
+	<p>Use <code>https://cdn.jsdelivr.net/gh/rockwillck/flower/flower.min.js</code> to load the script.</p>
+	<p>Then just use <code>bindFlower(document.getElementById("CANVAS-ID-REPLACE-THIS"))</code> in any JS script in your document.</p>
+	<p>You can also define the outline color (like we do on this webpage) as the second argument <kbd>STRING</kbd>.</p>
+	<h2>Technical Details</h2>
+	<p>The renderer is a basic from-scratch 3D perspective renderer.</p>
+	<p>The generator begins with an arbitrary axis vector. It then starts generating petals in groups of four at different "levels" around this axis vector.</p>
+	<script src="flower.js"></script>
+	<script>bindFlower(document.getElementById("canvas"),"rgba(255, 255, 255, 0.2)")</script>
+</body>
+</html>

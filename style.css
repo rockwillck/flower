@@ -1,0 +1,21 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+canvas {
+	width: 400px;
+	height: 400px;
+}
+
+p {
+	max-width: 450px;
+}
