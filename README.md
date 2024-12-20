@@ -12,3 +12,6 @@ You can also define the outline color (like we do on this webpage) as the second
 The renderer is a basic from-scratch 3D perspective renderer.
 
 The generator begins with an arbitrary axis vector. It then starts generating petals in groups of four at different "levels" around this axis vector.
+
+## License
+MIT
